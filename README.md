@@ -84,3 +84,8 @@ See the [Internet of Things Platform device samples](https://github.com/ibm-mess
 # Dependencies 
 
 This sample uses [WebSphere Liberty](http://wasdev.net), the [Internet of Things Platform Java client helper libraries](https://github.com/ibm-watson-iot/iot-java), [Eclipse Paho MQTT client](http://www.eclipse.org/paho/), Java EE interfaces, and the [webjars] bundles of the [Bootstrap UI framework](http://getbootstrap.com) and [C3 graphing library](http://c3js.org). 
+
+# More information 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/k6zLBYj0DgXu4k" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/HollyCummins/an-arduino-an-application-server-and-me" title="An Arduino, an application, server, and me" target="_blank">An Arduino, an application, server, and me</a> </strong> von <strong><a target="_blank" href="//www.slideshare.net/HollyCummins">Holly Cummins</a></strong> </div>
+
