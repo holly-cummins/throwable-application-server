@@ -1,0 +1,33 @@
+<server description="Server which runs the WebSphere Sphere">
+
+ <!-- Enable features -->
+	<featureManager>
+		<feature>cdi-1.2</feature>
+		<feature>jsp-2.3</feature>
+		<feature>jpa-2.1</feature>
+		<feature>localConnector-1.0</feature>
+		<feature>ejbLite-3.2</feature>
+		<feature>jaxrs-2.0</feature>
+		<feature>websocket-1.1</feature>
+	</featureManager>
+
+	<dataSource id="ds" jdbcDriverRef="derby.driver" jndiName="jdbc/datasource" transactional="true">
+		<properties.derby.embedded createDatabase="create" databaseName="memory:SphereDatabase"/>
+	</dataSource>
+
+	<jdbcDriver id="derby.driver">
+		<library description="derby" name="derby">
+			<fileset dir="${shared.resource.dir}/derby" includes="derby.jar"/>
+		</library>
+	</jdbcDriver>
+
+
+	<!-- To access this server from a remote client add a host attribute to 
+		the following element, e.g. host="*" -->
+	<httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
+
+	<applicationMonitor updateTrigger="mbean"/>
+
+ 
+    <webApplication id="sphere-war" location="sphere-war.war" name="sphere-war"/>
+</server>

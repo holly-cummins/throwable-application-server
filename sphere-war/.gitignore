@@ -1,0 +1,12 @@
+.gradle/
+bin/
+build/
+target/
+src/main/webapp/lib
+
+.settings/
+
+.classpath
+
+.project
+/RemoteSystemsTempFiles/

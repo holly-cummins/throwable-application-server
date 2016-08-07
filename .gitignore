@@ -1,0 +1,15 @@
+.metadata/
+.gradle/
+.recommenders/
+
+RemoteSystemsTempFiles/.project
+
+liberty-usr/servers/pollServer/derby.log
+
+liberty-usr/servers/pollServer/jvm.options
+
+liberty-usr/servers/.pid/pollServer.pid
+
+sphere-war/usr/servers/pollServer/apps/sphere-war.war
+
+*.hprof

@@ -1,0 +1,13 @@
+/* style.css
+ * This file provides css styles.
+ */
+body, html {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+b, strong {
+	font-weight: 500;
+}
+
+}
