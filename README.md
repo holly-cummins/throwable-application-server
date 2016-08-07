@@ -20,7 +20,7 @@ The second is the more traditional model, but both are interesting for different
 
 In the case where the application server is running in the cloud, a [small Java application](pcduino-sensors) regularly publishes messages to a configured MQTT broker.
 
-This application is designed to run on a [pcDuino](http://www.linksprite.com/linksprite-pcduino/) (and optionally [Bluemix](http://bluemix.net)), and runs on WebSphere Liberty](http://wasdev.net). 
+This application is designed to run on a [pcDuino](http://www.linksprite.com/linksprite-pcduino/) (and optionally [Bluemix](http://bluemix.net)), and runs on [WebSphere Liberty](http://wasdev.net). 
 
 **[License information](LICENSE.txt)** 
 
