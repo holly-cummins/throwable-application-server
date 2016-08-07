@@ -1,5 +1,7 @@
 # The Cuddly Throwable Application Server, and Bluemix IoT
 
+![Photo of Throwable Application Server](spherephoto.png)
+
 # About this sample
 
 This sample shows two different ways of making sensor readings from a device available in a web page: 
