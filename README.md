@@ -89,7 +89,7 @@ This sample uses [WebSphere Liberty](http://wasdev.net), the [Internet of Things
 
 # More information 
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/k6zLBYj0DgXu4k" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/HollyCummins/an-arduino-an-application-server-and-me" title="An Arduino, an application, server, and me" target="_blank">An Arduino, an application, server, and me</a> </strong> von <strong><a target="_blank" href="//www.slideshare.net/HollyCummins">Holly Cummins</a></strong> </div>
+Slideshare: <iframe src="//www.slideshare.net/slideshow/embed_code/key/k6zLBYj0DgXu4k" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/HollyCummins/an-arduino-an-application-server-and-me" title="An Arduino, an application, server, and me" target="_blank">An Arduino, an application, server, and me</a> </strong> by <strong><a target="_blank" href="//www.slideshare.net/HollyCummins">Holly Cummins</a></strong> </div>
 
 
 ![Drawing of Throwable Application Server](drawnsphere.png)
