@@ -1,5 +1,7 @@
 # The Cuddly Throwable Application Server, and Bluemix IoT
 
+This application was designed to run on a throwable, cuddly, computer (the WebSphere sphere): 
+
 ![Photo of Throwable Application Server](spherephoto.png)
 
 # About this sample
