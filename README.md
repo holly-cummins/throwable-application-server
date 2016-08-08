@@ -6,10 +6,10 @@
 
 This sample shows two different ways of making sensor readings from a device available in a web page: 
 
-* Run an application server on the device itself
+* Run an application server on the embedded device itself
 * Run an application server in the cloud, and publish sensor readings to it by messages
 
-The second is the more traditional model, but both are interesting for different reasons. The same [web application](sphere-war) can be run in the cloud and on a low-cost single board computer. The application
+The second is the more traditional IoT model, but both are interesting for different reasons. The same [web application](sphere-war) can be run in the cloud and on a low-cost single board computer. The application
  uses a range of Java EE programming models: 
 
 * Websockets
