@@ -28,6 +28,9 @@ repositories {
            }
 }
 
+configurations {
+ derby
+}
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
@@ -47,6 +50,7 @@ dependencies {
     // Use webjars to manage javascript dependencies
     compile 'org.webjars:bootstrap:3.3.1'
     compile 'org.webjars:c3:0.4.11'
+    derby "org.apache.derby:derby:10.12.1.1"
   }
 
 liberty {
@@ -65,10 +69,24 @@ install {
     }
 }
 
-task deployToLiberty(type: Copy, dependsOn: ['war']) {
+task deployToLiberty(type: Copy, dependsOn: ['war', 'deployDependenciesToLiberty']) {
     from war.archivePath 
     into "${liberty.userDir}/servers/${liberty.serverName}/apps"
 
+}
+
+task deployDependenciesToLiberty() << {
+   String derbyDir = "${liberty.userDir}/shared/resources/derby"
+   new File(derbyDir).mkdirs();
+      configurations.derby.resolve().each { file ->
+        //Copy the file to the desired location
+        copy {
+          from file 
+          into derbyDir
+          // Strip off version numbers
+          rename '(.+)-[\\.0-9]+\\.(.+)', '$1.$2'
+        }
+      }
 }
 
 libertyPackage.mustRunAfter installFeature
