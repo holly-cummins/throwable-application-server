@@ -69,7 +69,7 @@ ${summary}
 		%>
 	</table>
 
-	<h4>Is the computer cooking?</h4>
+	<h4>Is the computer cooking? Who knows? That needs network!</h4>
 <div id="chart"></div>
       <script type="text/javascript" src="/c3chart.js"></script>
 
